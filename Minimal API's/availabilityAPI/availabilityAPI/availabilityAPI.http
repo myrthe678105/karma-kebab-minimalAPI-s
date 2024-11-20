@@ -1,0 +1,23 @@
+﻿@availabilityAPI_HostAddress = https://localhost:7223
+
+POST {{availabilityAPI_HostAddress}}/availabilities
+Content-Type: application/json
+{
+"employeeId": "1d2a55e8-914c-4be9-9c17-fdf7b2d17a45",
+"startDate": "2024-11-11T08:00:00Z",
+"endDate": "2024-11-11T16:00:00Z"
+}
+
+###
+
+GET {{availabilityAPI_HostAddress}}/availabilities
+
+###
+
+GET {{availabilityAPI_HostAddress}}/availabilities/{id:guid}
+
+###
+
+PUT {{availabilityAPI_HostAddress}}/availabilities/{id:guid}
+
+###

@@ -1,0 +1,18 @@
+﻿@ShiftAPI_HostAddress = https://localhost:7030
+
+POST {{ShiftAPI_HostAddress}}/shifts
+Content-Type: application/json
+{
+  "shiftId": "f35fe9d7-49c2-4f47-9097-7c0b6a5ff618",
+  "startTime": "2024-11-10T08:00:00Z",
+  "endTime": "2024-11-10T16:00:00Z",
+  "employeeId": "bc1f51e9-017d-49ae-a1f3-9d404123d3f1",
+  "shiftType": "normal",
+  "status": "confirmed",
+  "clockInTime": "2024-11-10T08:15:00Z",
+  "clockOutTime": "2024-11-10T16:00:00Z",
+  "shiftHours": 8
+}
+
+###
+
