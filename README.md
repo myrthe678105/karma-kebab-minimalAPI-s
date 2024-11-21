@@ -1,5 +1,9 @@
 # Mock API / karma-kebab-minimalAPI-s
 
+## Login Flow
+
+The implemented login flow is the **Resource Owner Password Credentials (ROPC) Grant**. This flow allows a user to obtain an access token by directly providing their username and password. The credentials are validated against hardcoded data in a JSON file (`db/login.json`), and upon successful authentication, an access token and other related information are returned.
+
 ## Run the project
 
 `dotnet run`
