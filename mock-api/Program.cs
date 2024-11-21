@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddSingleton<EventService>(new EventService("db/event.json"));
+builder.Services.AddSingleton<AuthService>(new AuthService("db/login.json"));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -29,22 +30,33 @@ app.UseRouting();
 // Define the endpoints
 app.UseEndpoints(endpoints =>
 {
-    // Event Endpoints
-    endpoints.MapGet("/events", (EventService service) => service.GetAllEvents());
+    // Login Endpoints
+    endpoints.MapPost("/api/auth/token", (AuthService authService, LoginRequest loginRequest) =>
+    {
+        var token = authService.Authenticate(loginRequest.Username, loginRequest.Password);
+        if (token == null)
+        {
+            return Results.BadRequest(new { error = "Invalid credentials" });
+        }
+        return Results.Ok(new { accessToken = token });
+    });
 
-    endpoints.MapGet("/events/{id}", (EventService service, String id) =>
+    // Event Endpoints
+    endpoints.MapGet("/api/events", (EventService service) => service.GetAllEvents());
+
+    endpoints.MapGet("/api/events/{id}", (EventService service, String id) =>
     {
         var ev = service.GetEventById(id);
         return ev != null ? Results.Ok(ev) : Results.NotFound();
     });
 
-    endpoints.MapPost("/events", (EventService service, Event newEvent) =>
+    endpoints.MapPost("/api/events", (EventService service, Event newEvent) =>
     {
         service.AddEvent(newEvent);
-        return Results.Created($"/events/{newEvent.Id}", newEvent);
+        return Results.Created($"/api/events/{newEvent.Id}", newEvent);
     });
 
-    endpoints.MapPut("/events/{id}", (EventService service, String id, Event updatedEvent) =>
+    endpoints.MapPut("/api/events/{id}", (EventService service, String id, Event updatedEvent) =>
     {
         if (id != updatedEvent.Id)
         {
@@ -55,7 +67,7 @@ app.UseEndpoints(endpoints =>
         return Results.NoContent();
     });
 
-    endpoints.MapDelete("/events/{id}", (EventService service, String id) =>
+    endpoints.MapDelete("/api/events/{id}", (EventService service, String id) =>
     {
         service.DeleteEvent(id);
         return Results.NoContent();
@@ -66,3 +78,9 @@ app.UseEndpoints(endpoints =>
 });
 
 app.Run();
+
+public class LoginRequest
+{
+    public string Username { get; set; }
+    public string Password { get; set; }
+}

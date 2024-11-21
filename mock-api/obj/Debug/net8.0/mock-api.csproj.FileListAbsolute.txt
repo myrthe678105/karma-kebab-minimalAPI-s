@@ -33,3 +33,4 @@ C:\Users\avorn\source\repos\karma-kebab-minimalAPI-s\mock-api\bin\Debug\net8.0\M
 C:\Users\avorn\source\repos\karma-kebab-minimalAPI-s\mock-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\avorn\source\repos\karma-kebab-minimalAPI-s\mock-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\avorn\source\repos\karma-kebab-minimalAPI-s\mock-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\avorn\source\repos\karma-kebab-minimalAPI-s\mock-api\bin\Debug\net8.0\db\login.json
