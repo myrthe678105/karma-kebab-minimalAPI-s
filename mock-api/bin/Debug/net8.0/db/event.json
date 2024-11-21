@@ -138,5 +138,47 @@
       "Email": "hank.irving@example.com"
     },
     "Note": "Agenda attached"
+  },
+  {
+    "Id": "string",
+    "Date": "2024-11-21T16:13:37.101Z",
+    "Address": "string",
+    "Venue": "string",
+    "Description": "string",
+    "Money": 0.0,
+    "Status": 0,
+    "Person": {
+      "Name": "string",
+      "Email": "string"
+    },
+    "Note": "string"
+  },
+  {
+    "Id": "string",
+    "Date": "2024-11-21T16:13:37.101Z",
+    "Address": "string",
+    "Venue": "string",
+    "Description": "string",
+    "Money": 0.0,
+    "Status": 0,
+    "Person": {
+      "Name": "string",
+      "Email": "string"
+    },
+    "Note": "string"
+  },
+  {
+    "Id": "string",
+    "Date": "2024-11-21T16:13:37.101Z",
+    "Address": "string",
+    "Venue": "string",
+    "Description": "string",
+    "Money": 0.0,
+    "Status": 0,
+    "Person": {
+      "Name": "string",
+      "Email": "string"
+    },
+    "Note": "string"
   }
 ]
