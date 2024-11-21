@@ -9,7 +9,8 @@
     "Status": 0,
     "Person": {
       "Name": "John Doe",
-      "Email": "john.doe@example.com"
+      "Email": "john.doe@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Bring ID for entry"
   },
@@ -23,7 +24,8 @@
     "Status": 0,
     "Person": {
       "Name": "Jane Smith",
-      "Email": "jane.smith@example.com"
+      "Email": "jane.smith@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Lunch provided"
   },
@@ -37,7 +39,8 @@
     "Status": 0,
     "Person": {
       "Name": "Alice Johnson",
-      "Email": "alice.johnson@example.com"
+      "Email": "alice.johnson@example.com",
+      "Phone": "0612345678"
     },
     "Note": "RSVP required"
   },
@@ -51,7 +54,8 @@
     "Status": 0,
     "Person": {
       "Name": "Bob Brown",
-      "Email": "bob.brown@example.com"
+      "Email": "bob.brown@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Business cards recommended"
   },
@@ -65,7 +69,8 @@
     "Status": 0,
     "Person": {
       "Name": "Charlie Davis",
-      "Email": "charlie.davis@example.com"
+      "Email": "charlie.davis@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Casual attire"
   },
@@ -79,7 +84,8 @@
     "Status": 0,
     "Person": {
       "Name": "Dana Evans",
-      "Email": "dana.evans@example.com"
+      "Email": "dana.evans@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Prepare presentation"
   },
@@ -93,7 +99,8 @@
     "Status": 0,
     "Person": {
       "Name": "Eve Foster",
-      "Email": "eve.foster@example.com"
+      "Email": "eve.foster@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Bring financial reports"
   },
@@ -107,7 +114,8 @@
     "Status": 0,
     "Person": {
       "Name": "Frank Green",
-      "Email": "frank.green@example.com"
+      "Email": "frank.green@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Materials provided"
   },
@@ -121,7 +129,8 @@
     "Status": 0,
     "Person": {
       "Name": "Grace Harris",
-      "Email": "grace.harris@example.com"
+      "Email": "grace.harris@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Demo equipment ready"
   },
@@ -135,7 +144,8 @@
     "Status": 0,
     "Person": {
       "Name": "Hank Irving",
-      "Email": "hank.irving@example.com"
+      "Email": "hank.irving@example.com",
+      "Phone": "0612345678"
     },
     "Note": "Agenda attached"
   },
@@ -149,13 +159,14 @@
     "Status": 0,
     "Person": {
       "Name": "string",
-      "Email": "string"
+      "Email": "string",
+      "Phone": "0612345678"
     },
     "Note": "string"
   },
   {
     "Id": "string",
-    "Date": "2024-11-21T16:13:37.101Z",
+    "Date": "2024-11-21T16:27:47.917Z",
     "Address": "string",
     "Venue": "string",
     "Description": "string",
@@ -163,21 +174,8 @@
     "Status": 0,
     "Person": {
       "Name": "string",
-      "Email": "string"
-    },
-    "Note": "string"
-  },
-  {
-    "Id": "string",
-    "Date": "2024-11-21T16:13:37.101Z",
-    "Address": "string",
-    "Venue": "string",
-    "Description": "string",
-    "Money": 0.0,
-    "Status": 0,
-    "Person": {
-      "Name": "string",
-      "Email": "string"
+      "Email": "string",
+      "Phone": "0612345678"
     },
     "Note": "string"
   }
