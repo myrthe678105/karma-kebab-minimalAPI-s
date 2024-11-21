@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|c:\\users\\bbd14\\onedrive\\masa\u00FCst\u00FC\\shhitt\\minimalapi3\\minimal api\u0027s\\dutyapi\\dutyapi\\dutyapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|solutionrelative:dutyapi\\dutyapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|c:\\users\\bbd14\\onedrive\\masa\u00FCst\u00FC\\shhitt\\minimalapi3\\minimal api\u0027s\\dutyapi\\dutyapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|solutionrelative:dutyapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|c:\\users\\bbd14\\onedrive\\masa\u00FCst\u00FC\\shhitt\\minimalapi3\\minimal api\u0027s\\dutyapi\\dutyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|solutionrelative:dutyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|c:\\users\\bbd14\\onedrive\\masa\u00FCst\u00FC\\shhitt\\minimalapi3\\minimal api\u0027s\\dutyapi\\dutyapi\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|solutionrelative:dutyapi\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|c:\\users\\bbd14\\onedrive\\masa\u00FCst\u00FC\\shhitt\\minimalapi3\\minimal api\u0027s\\dutyapi\\dutyapi\\services\\dutyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|solutionrelative:dutyapi\\services\\dutyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|c:\\users\\bbd14\\onedrive\\masa\u00FCst\u00FC\\shhitt\\minimalapi3\\minimal api\u0027s\\dutyapi\\dutyapi\\models\\dutydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|solutionrelative:dutyapi\\models\\dutydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|c:\\users\\bbd14\\onedrive\\masa\u00FCst\u00FC\\shhitt\\minimalapi3\\minimal api\u0027s\\dutyapi\\dutyapi\\models\\duty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74DCAAE-CE5A-4138-9CC1-5F6A250AF70F}|DutyAPI\\DutyAPI.csproj|solutionrelative:dutyapi\\models\\duty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 255,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DutyAPI.http",
+              "DocumentMoniker": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\DutyAPI.http",
+              "RelativeDocumentMoniker": "DutyAPI\\DutyAPI.http",
+              "ToolTip": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\DutyAPI.http",
+              "RelativeToolTip": "DutyAPI\\DutyAPI.http",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-21T13:03:01.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DutyAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DutyAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T13:02:42.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DutyAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Program.cs",
+              "RelativeToolTip": "DutyAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:02:23.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DutyService.cs",
+              "DocumentMoniker": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Services\\DutyService.cs",
+              "RelativeDocumentMoniker": "DutyAPI\\Services\\DutyService.cs",
+              "ToolTip": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Services\\DutyService.cs",
+              "RelativeToolTip": "DutyAPI\\Services\\DutyService.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAowGgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:01:44.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "DutyAPI\\Models\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "DutyAPI\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:00:23.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DutyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Models\\DutyDTO.cs",
+              "RelativeDocumentMoniker": "DutyAPI\\Models\\DutyDTO.cs",
+              "ToolTip": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Models\\DutyDTO.cs",
+              "RelativeToolTip": "DutyAPI\\Models\\DutyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:59:53.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Duty.cs",
+              "DocumentMoniker": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Models\\Duty.cs",
+              "RelativeDocumentMoniker": "DutyAPI\\Models\\Duty.cs",
+              "ToolTip": "C:\\Users\\bbd14\\OneDrive\\Masa\u00FCst\u00FC\\shhitt\\minimalapi3\\Minimal API\u0027s\\DutyAPI\\DutyAPI\\Models\\Duty.cs",
+              "RelativeToolTip": "DutyAPI\\Models\\Duty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:59:41.899Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
