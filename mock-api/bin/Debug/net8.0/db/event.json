@@ -1,0 +1,142 @@
+[
+  {
+    "Id": "1e1a1b1c-1d1e-1f1g-1h1i-1j1k1l1m1n1o",
+    "Date": "2023-10-01T10:00:00",
+    "Address": "123 Main St",
+    "Venue": "Conference Hall A",
+    "Description": "Annual Tech Conference",
+    "Money": 100.5,
+    "Status": 0,
+    "Person": {
+      "Name": "John Doe",
+      "Email": "john.doe@example.com"
+    },
+    "Note": "Bring ID for entry"
+  },
+  {
+    "Id": "2e2a2b2c-2d2e-2f2g-2h2i-2j2k2l2m2n2o",
+    "Date": "2023-10-02T11:00:00",
+    "Address": "456 Elm St",
+    "Venue": "Auditorium B",
+    "Description": "Marketing Workshop",
+    "Money": 75.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Jane Smith",
+      "Email": "jane.smith@example.com"
+    },
+    "Note": "Lunch provided"
+  },
+  {
+    "Id": "3e3a3b3c-3d3e-3f3g-3h3i-3j3k3l3m3n3o",
+    "Date": "2023-10-03T12:00:00",
+    "Address": "789 Oak St",
+    "Venue": "Room 101",
+    "Description": "Product Launch",
+    "Money": 150.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Alice Johnson",
+      "Email": "alice.johnson@example.com"
+    },
+    "Note": "RSVP required"
+  },
+  {
+    "Id": "4e4a4b4c-4d4e-4f4g-4h4i-4j4k4l4m4n4o",
+    "Date": "2023-10-04T13:00:00",
+    "Address": "101 Pine St",
+    "Venue": "Hall C",
+    "Description": "Networking Event",
+    "Money": 50.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Bob Brown",
+      "Email": "bob.brown@example.com"
+    },
+    "Note": "Business cards recommended"
+  },
+  {
+    "Id": "5e5a5b5c-5d5e-5f5g-5h5i-5j5k5l5m5n5o",
+    "Date": "2023-10-05T14:00:00",
+    "Address": "202 Birch St",
+    "Venue": "Conference Room D",
+    "Description": "Team Building Activity",
+    "Money": 200.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Charlie Davis",
+      "Email": "charlie.davis@example.com"
+    },
+    "Note": "Casual attire"
+  },
+  {
+    "Id": "6e6a6b6c-6d6e-6f6g-6h6i-6j6k6l6m6n6o",
+    "Date": "2023-10-06T15:00:00",
+    "Address": "303 Cedar St",
+    "Venue": "Room 202",
+    "Description": "Client Meeting",
+    "Money": 300.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Dana Evans",
+      "Email": "dana.evans@example.com"
+    },
+    "Note": "Prepare presentation"
+  },
+  {
+    "Id": "7e7a7b7c-7d7e-7f7g-7h7i-7j7k7l7m7n7o",
+    "Date": "2023-10-07T16:00:00",
+    "Address": "404 Spruce St",
+    "Venue": "Hall E",
+    "Description": "Investor Pitch",
+    "Money": 400.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Eve Foster",
+      "Email": "eve.foster@example.com"
+    },
+    "Note": "Bring financial reports"
+  },
+  {
+    "Id": "8e8a8b8c-8d8e-8f8g-8h8i-8j8k8l8m8n8o",
+    "Date": "2023-10-08T17:00:00",
+    "Address": "505 Maple St",
+    "Venue": "Room 303",
+    "Description": "Training Session",
+    "Money": 250.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Frank Green",
+      "Email": "frank.green@example.com"
+    },
+    "Note": "Materials provided"
+  },
+  {
+    "Id": "9e9a9b9c-9d9e-9f9g-9h9i-9j9k9l9m9n9o",
+    "Date": "2023-10-09T18:00:00",
+    "Address": "606 Willow St",
+    "Venue": "Auditorium F",
+    "Description": "Product Demo",
+    "Money": 350.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Grace Harris",
+      "Email": "grace.harris@example.com"
+    },
+    "Note": "Demo equipment ready"
+  },
+  {
+    "Id": "10e10a10b10c-10d10e-10f10g-10h10i-10j10k10l10m10n10o",
+    "Date": "2023-10-10T19:00:00",
+    "Address": "707 Ash St",
+    "Venue": "Room 404",
+    "Description": "Board Meeting",
+    "Money": 500.0,
+    "Status": 0,
+    "Person": {
+      "Name": "Hank Irving",
+      "Email": "hank.irving@example.com"
+    },
+    "Note": "Agenda attached"
+  }
+]
