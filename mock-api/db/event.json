@@ -148,35 +148,5 @@
       "Phone": "0612345678"
     },
     "Note": "Agenda attached"
-  },
-  {
-    "Id": "string",
-    "Date": "2024-11-21T16:13:37.101Z",
-    "Address": "string",
-    "Venue": "string",
-    "Description": "string",
-    "Money": 0.0,
-    "Status": 0,
-    "Person": {
-      "Name": "string",
-      "Email": "string",
-      "Phone": "0612345678"
-    },
-    "Note": "string"
-  },
-  {
-    "Id": "string",
-    "Date": "2024-11-21T16:27:47.917Z",
-    "Address": "string",
-    "Venue": "string",
-    "Description": "string",
-    "Money": 0.0,
-    "Status": 0,
-    "Person": {
-      "Name": "string",
-      "Email": "string",
-      "Phone": "0612345678"
-    },
-    "Note": "string"
   }
 ]

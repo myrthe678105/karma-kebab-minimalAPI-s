@@ -126,7 +126,7 @@ app.UseEndpoints(endpoints =>
     });
 
     // Event endpoints
-    endpoints.MapGet("/api/events", (EventService service, HttpRequest request, AuthService authService) =>
+    endpoints.MapGet("/api/events", (EventService service, HttpRequest request, AuthService authService, DateTime? startDate, DateTime? endDate) =>
     {
         // Extract the Authorization header
         var authorizationHeader = request.Headers["Authorization"].FirstOrDefault();
@@ -147,10 +147,28 @@ app.UseEndpoints(endpoints =>
             return Results.Unauthorized();
         }
 
-        // Return all events
-        return Results.Ok(service.GetAllEvents());
-    });
+        // Extract query parameters for date filtering
+        var startDateString = request.Query["startDate"].FirstOrDefault(); // 2023-10-01T00:00:00
+        var endDateString = request.Query["endDate"].FirstOrDefault(); // 2023-10-05T00:00:00
 
+        // Parse query parameters into DateTime objects if provided
+        if (!string.IsNullOrEmpty(startDateString) && DateTime.TryParse(startDateString, out var parsedStartDate))
+        {
+            startDate = parsedStartDate;
+        }
+
+        if (!string.IsNullOrEmpty(endDateString) && DateTime.TryParse(endDateString, out var parsedEndDate))
+        {
+            endDate = parsedEndDate;
+        }
+
+        // Get events based on the optional date range
+        var events = service.GetAllEvents(startDate, endDate);
+
+        // Return filtered events
+        return Results.Ok(events);
+    });
+    
     endpoints.MapGet("/api/events/{id}", (EventService service, HttpRequest request, AuthService authService, string id) =>
     {
         // Extract the Authorization header
