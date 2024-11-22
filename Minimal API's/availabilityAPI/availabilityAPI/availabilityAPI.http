@@ -1,23 +1,39 @@
-﻿@availabilityAPI_HostAddress = https://localhost:7223
+@availabilityAPI_HostAddress = https://localhost:7223
 
-POST {{availabilityAPI_HostAddress}}/availabilities
-Content-Type: application/json
-{
-"employeeId": "1d2a55e8-914c-4be9-9c17-fdf7b2d17a45",
-"startDate": "2024-11-11T08:00:00Z",
-"endDate": "2024-11-11T16:00:00Z"
-}
-
-###
-
+### Get all Availabilities (should include the pre-populated mock data)
 GET {{availabilityAPI_HostAddress}}/availabilities
 
 ###
 
-GET {{availabilityAPI_HostAddress}}/availabilities/{id:guid}
+### Get Availability by ID (replace with actual IDs from the first GET response)
+GET {{availabilityAPI_HostAddress}}/availabilities/00000000-0000-0000-0000-000000000001
 
 ###
 
-PUT {{availabilityAPI_HostAddress}}/availabilities/{id:guid}
+### Create a new Availability
+POST {{availabilityAPI_HostAddress}}/availabilities
+Content-Type: application/json
+
+{
+  "id": "00000000-0000-0000-0000-000000000001",
+  "employeeId": "4f62c847-519d-4c39-9901-a1b0bb77d126",
+  "startDate": "2024-11-14T08:00:00Z",
+  "endDate": "2024-11-14T16:00:00Z"
+}
 
 ###
+
+### Update an existing Availability
+PUT {{availabilityAPI_HostAddress}}/availabilities/00000000-0000-0000-0000-000000000001
+Content-Type: application/json
+
+{
+  "employeeId": "5a6f47db-44a1-4da8-899b-f43d99a6b8e2",
+  "startDate": "2024-11-15T09:00:00Z",
+  "endDate": "2024-11-15T17:00:00Z"
+}
+
+###
+
+### Delete an Availability
+DELETE {{availabilityAPI_HostAddress}}/availabilities/00000000-0000-0000-0000-000000000001
