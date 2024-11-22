@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bmbnmLvk4JQ=",
+  "dgSpecHash": "xW0cIEKecaA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bbd14\\OneDrive\\Masaüstü\\shhitt\\minimalapi3\\Minimal API's\\DutyAPI\\DutyAPI\\DutyAPI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\bbd14\\OneDrive\\Masaüstü\\shhitt\\minimalapi3\\DutyAPI\\DutyAPI\\DutyAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bbd14\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
   "logs": []
 }
