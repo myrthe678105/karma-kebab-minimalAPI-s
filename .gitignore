@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DutyAPI/DutyAPI/DutyAPI.http
+/DutyAPI/.vs/DutyAPI/FileContentIndex/0562138b-df8f-4466-aac3-0ae730a2dfaf.vsidx
